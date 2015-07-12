@@ -6,7 +6,7 @@ A small web application that lets you input the minimum number of bathrooms you 
 
 This feature is currently absent from the main Zoopla site, the application is my way of solving my own problem.
 
-No one wants to endure a morning bathroom battle royale ritual.
+No one wants to endure a daily battle royale ritual for the bathroom in the morning.
 
 ## Thanks to...
 Zoopla! For letting me use their pretty darn good API for free. 
