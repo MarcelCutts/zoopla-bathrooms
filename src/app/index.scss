@@ -12,6 +12,27 @@ $icon-font-path: "../../bower_components/bootstrap-sass-official/assets/fonts/bo
 // bower:scss
 // endbower
 
+// Import fonts from google
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,300);
+
+$petit-formal-script: 'Petit Formal Script', cursive;
+$titillium-web: 'Titillium Web', sans-serif;
+
+// Set media query break points
+$screen-sm-min: 768px;
+$screen-xs-max: ($screen-sm-min - 1);
+$screen-md-min: 992px;
+$screen-sm-max: ($screen-md-min - 1);
+$screen-lg-min: 1200px;
+$screen-md-max: ($screen-lg-min - 1);
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+// Browse happy CSS for older browser users
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
